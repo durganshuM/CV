@@ -1,0 +1,44 @@
+html{
+    height: 100%;
+}
+
+body{
+    font-family: Segoe UI,SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: whitesmoke;
+    background: radial-gradient(ellipse at right bottom, #F7E2E2 5%, #61A4BC 25%, #5B7DB1 50%, #1A132F 100%);
+}
+
+
+h1{
+    color: whitesmoke;
+}
+
+h3{
+    color: white;
+}
+
+a:link{
+    color: #E5E3C9;
+}
+
+a:visited{
+    color: #B4CFB0;
+}
+
+a:hover{
+    color: #9AD0EC;
+}
+
+table{
+    background-color: transparent;
+    border: 0px transparent;
+}
+
+hr{
+    border-style: none;
+    border-top-style: dotted;
+    border-color: white;
+    border-width: 10px;
+    border-color: #40DFEF;
+    width: 10%;
+}
