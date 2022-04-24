@@ -1,44 +1,117 @@
-html{
-    height: 100%;
-}
+/*------------------------------------------------------tag selectors*/
 
 body{
-    font-family: Segoe UI,SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    color: whitesmoke;
-    background: radial-gradient(ellipse at right bottom, #F7E2E2 5%, #61A4BC 25%, #5B7DB1 50%, #1A132F 100%);
+    margin: 0px;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    color: #706C61;
 }
-
 
 h1{
-    color: whitesmoke;
+    font-family: 'Sacramento', cursive;
+    font-size: 90px;
+    color: #E1F4F3;
+    margin: 50px auto 0 auto;
+    line-height: 2;
 }
 
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    color: #706C61;
+    font-weight: normal;
+}
 h3{
-    color: white;
+    font-family: 'Montserrat', sans-serif;
+    color: #11999E;
 }
 
-a:link{
-    color: #E5E3C9;
-}
-
-a:visited{
-    color: #B4CFB0;
-}
-
-a:hover{
-    color: #9AD0EC;
-}
-
-table{
-    background-color: transparent;
-    border: 0px transparent;
+a{
+    color: #11999E;
 }
 
 hr{
     border-style: none;
-    border-top-style: dotted;
-    border-color: white;
-    border-width: 10px;
-    border-color: #40DFEF;
-    width: 10%;
+    margin: 0;
+}
+
+/*-------------------------------------------------------class selectors*/
+
+.top-container{
+    height: 59rem;
+    width: auto;
+    padding: 20px;
+    position: relative;
+    background-color: #333333;
+}
+
+.middle-container{
+    height: 59rem;
+    background-color: #FFFFFF;
+}
+
+.bottom-container{
+    background-color: #333333;
+    color: #E1F4F3;
+}
+
+.top-cloud{
+    position: absolute;
+    right: 30%;
+}
+
+.bottom-cloud{
+    position: absolute;
+    left: 30%;
+}
+
+.profile-pic{
+    height: 250px;
+    width: 250px;
+}
+
+.skill-row{
+    width: 50%;
+    margin: 150px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.first-skill{
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+.second-skill{
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+    border-radius: 100%;
+}
+
+.profile-pic{
+    margin-top: 100px;
+}
+
+.contact-icon{
+    height: 30px;
+    width: 30px;
+    margin: 15px;
+    border-radius: 100%;
+}
+
+.contact-icon:hover{
+    height: 40px;
+    width: 40px;
+}
+
+/*--------------------------------------------------------------id selectors*/
+
+#tophi{
+    margin-top: 0px;
+}
+
+#copyright{
+    margin: 0;
 }
