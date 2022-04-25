@@ -32,37 +32,53 @@ a{
 
 hr{
     border-style: none;
-    margin: 0;
+    border-top: dotted;
+    border-width: 10px;
+    border-color: lightgrey;
+    width: 5%;
+    margin: 100px auto;
+}
+
+p{
+    line-height: 2;
 }
 
 /*-------------------------------------------------------class selectors*/
 
 .top-container{
-    height: 59rem;
-    width: auto;
-    padding: 20px;
+    padding: 50px;
     position: relative;
     background-color: #333333;
 }
 
 .middle-container{
-    height: 59rem;
     background-color: #FFFFFF;
 }
 
 .bottom-container{
+    padding: 50px 0 20px;
     background-color: #333333;
     color: #E1F4F3;
 }
 
 .top-cloud{
     position: absolute;
-    right: 30%;
+    top: 5%;
+    right: 15%;
 }
 
 .bottom-cloud{
     position: absolute;
-    left: 30%;
+    left: 15%;
+}
+
+.mountain{
+    margin-top: 150px;
+}
+
+.intro{
+    width: 30%;
+    margin: auto;
 }
 
 .profile-pic{
@@ -71,16 +87,10 @@ hr{
     margin-top: 100px;
 }
 
-.profile-pic:hover{
-    height: 400px;
-    width: 400px;
-    margin: auto;
-}
-
 .skill-row{
     width: 50%;
     margin: 150px auto;
-    text-align: left;
+    text-align: justify;
     line-height: 2;
 }
 
@@ -97,16 +107,53 @@ hr{
     border-radius: 100%;
 }
 
+.contact-me{
+    margin: 50px auto;
+}
+
+.contact-msg{
+    width: 30%;
+    margin: auto;
+}
+
+.btn{
+    background: #828282;
+    background-image: -webkit-linear-gradient(top, #828282, #000000);
+    background-image: -moz-linear-gradient(top, #828282, #000000);
+    background-image: -ms-linear-gradient(top, #828282, #000000);
+    background-image: -o-linear-gradient(top, #828282, #000000);
+    background-image: linear-gradient(to bottom, #828282, #000000);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    line-height: 4;
+}
+  
+.btn:hover{
+    background: #000000;
+    background-image: -webkit-linear-gradient(top, #000000, #7a717a);
+    background-image: -moz-linear-gradient(top, #000000, #7a717a);
+    background-image: -ms-linear-gradient(top, #000000, #7a717a);
+    background-image: -o-linear-gradient(top, #000000, #7a717a);
+    background-image: linear-gradient(to bottom, #000000, #7a717a);
+    text-decoration: none;
+}
+
 .contact-icon{
+    margin: auto 10px;
     height: 30px;
     width: 30px;
-    margin: 15px;
     border-radius: 100%;
 }
 
 .contact-icon:hover{
-    height: 40px;
-    width: 40px;
+    height: 35px;
+    width: 35px;
     margin: auto;
 }
 
@@ -117,5 +164,6 @@ hr{
 }
 
 #copyright{
-    margin: 0;
+    font-size: 0.75rem;
+    padding: 20px 0;
 }
